@@ -42,7 +42,7 @@
         <!--fork : each test will run in its own JVM (to seperate test cases)-->
         <junit printsummary="true" haltonfailure="true" fork="true">
             <classpath>
-                <path refid="used libraries"></path>
+                <path refid="used Libraries"></path>
                 <pathelement location="${result.javaclasses.dir}"/>
                 <pathelement location="${result.testclasses.dir}"/>
             </classpath>
