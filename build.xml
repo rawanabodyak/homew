@@ -32,7 +32,7 @@
         <javac srcdir="${src.test.dir}"  destdir="${result.testclasses.dir}" debug="true" includeantruntime="false">
             <classpath>
 
-                <path refid="used libraries"/>
+                <path refid="used Libraries"/>
                 <pathelement location="${result.javaclasses.dir}"/>
             </classpath>
         </javac>
